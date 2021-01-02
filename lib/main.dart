@@ -130,6 +130,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ),
                               ),
                             ),
+                            SizedBox(height: 15,),
+                            Text("Yoshimasa Sushi", style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w700,
+                            ),
+                            ),
                           ],
                         ) ,
 
