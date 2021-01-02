@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_food_order_app/Style.dart';
 
 void main() {
   runApp(MyApp());
@@ -65,11 +67,36 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       child: Column(
                         children: [
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 25,vertical: 10),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(25)),
+                              color: greenBtn
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  Icons.add_shopping_cart,
+                                  color: Colors.white,
+                                  size: 15,
+                                ),
+                                Text("CART",style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w700
+                                ),
+                                ),
+                              ],
+                            ),
+                          ),
 
                         ],
                       ),
                     ),
-                  ],
+
+                    ],
+
                 ),
               ],
             ),
