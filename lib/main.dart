@@ -137,6 +137,41 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.w700,
                             ),
                             ),
+                            SizedBox(height: 5,),
+                            Row(
+                              children: [
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.white,
+                                  size: 17,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.white,
+                                  size: 17,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.white,
+                                  size: 17,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.white,
+                                  size: 17,
+                                ),
+
+                              Text("250 Ratings", style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 10,
+                              ),),
+                              ],
+                            ),
+                            SizedBox(height: 10,),
+                            Text("Lorem ipsum is a dummy text used for printing", style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 13
+                            ),),
                           ],
                         ) ,
 
