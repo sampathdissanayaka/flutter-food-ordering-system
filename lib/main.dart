@@ -176,6 +176,22 @@ class _MyHomePageState extends State<MyHomePage> {
                         ) ,
 
                       ),
+                      SizedBox(width: 10,),
+                      Column(
+                        children: [
+                          Container(
+                            width: MediaQuery.of(context).size.width*0.35,
+                            height: 165,
+                            padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(30)),
+                              color: green,
+                                boxShadow: [BoxShadow(spreadRadius: 0, offset: Offset(0,10), blurRadius: 0, color: green.withOpacity(0.5))]
+
+                            ),
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ),
