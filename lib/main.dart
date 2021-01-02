@@ -110,6 +110,28 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Row(
                     children: [
                       Container(
+                        width: MediaQuery.of(context).size.width*0.55,
+                        height: 350,
+                        padding: EdgeInsets.symmetric(vertical: 40,horizontal: 20),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(30)),
+                          color: blue,
+                          boxShadow: [BoxShadow(spreadRadius: 0, offset: Offset(0,10), blurRadius: 0, color: blue.withOpacity(0.5))]
+                        ),
+                        child:Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Expanded(
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage("asset/images/food1.png"),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ) ,
 
                       ),
                     ],
