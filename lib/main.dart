@@ -98,6 +98,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
 
                 ),
+                SizedBox(height: 10,),
+                Text("Find out what's cooking today!", style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 15,
+                ),),
+                SizedBox(height: 15,),
+                SingleChildScrollView(
+                  padding: EdgeInsets.only(bottom: 20),
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
