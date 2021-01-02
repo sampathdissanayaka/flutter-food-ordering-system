@@ -213,32 +213,29 @@ class _MyHomePageState extends State<MyHomePage> {
                                     Icon(
                                       Icons.star,
                                       color: Colors.white,
-                                      size: 17,
+                                      size: 14,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.white,
-                                      size: 17,
+                                      size: 14,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.white,
-                                      size: 17,
+                                      size: 14,
                                     ),
                                     Icon(
                                       Icons.star,
                                       color: Colors.white,
-                                      size: 17,
+                                      size: 14,
                                     ),
-
                                   ],
                                 ),
-
-
                               ],
                             ) ,
-
                             ),
+
                         ],
                       ),
                     ],
